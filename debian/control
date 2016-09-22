@@ -1,0 +1,16 @@
+Source: golang-github-burntsushi-freetype-go
+Section: devel
+Priority: extra
+Maintainer: Deepin Packages Builder <packages@linuxdeepin.com>
+Build-Depends: debhelper (>= 9),golang-go, dh-golang
+Standards-Version: 3.9.5
+Homepage: https://code.google.com/r/jamslam-freetype-go/
+
+Package: golang-github-burntsushi-freetype-go-dev
+Architecture: all
+Depends: ${shlibs:Depends}, ${misc:Depends},
+Description: Freetype-go with extent reporting support
+ An attempt at adding a method to compute the bounding box of a string without
+ rendering the string.
+ .
+ This package contains the source.

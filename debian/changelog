@@ -1,0 +1,6 @@
+golang-github-burntsushi-freetype-go (0.0~git20160920) xenial; urgency=low
+
+  [ Deepin Packages Builder ]
+  * build with golang 1.5.1
+
+ -- lilongyu <leaeasy@gmail.com>  Thu, 22 Sep 2016 16:03:12 +0800

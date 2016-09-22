@@ -1,0 +1,10 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+export DH_GOPKG := github.com/BurntSushi/freetype-go
+export DH_GOLANG_EXCLUDES := ${DH_GOPKG}/example
+export DEB_BUILD_OPTIONS := nocheck
+
+%:
+	dh $@ --buildsystem=golang --with=golang
+
